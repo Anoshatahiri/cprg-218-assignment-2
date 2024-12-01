@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(172, 60, 42);
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.hi {
+    background-color: rgb(205, 207, 209);
+    border: 10px;
+    border-radius: 12px;
+    padding: 15px;
+    font-family: "Noto Serif Display", serif;
+    font-size: 20px;
+    box-shadow: 0px 8px 20px;
+}
+
+#buttons .hi:hover {
+    background-color: rgb(185, 188, 187);
+}
+
+.invisible {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    border-radius: 40px;
+    margin: 50px;
+    display: none;
+}
+
+/* #content-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+} */
+
+#intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+#intro h1 {
+    font-size: 70px;
+    font-family: "Rozha One", serif;
+}
+
+#intro h3 {
+    font-family: "Rozha One", serif;
+    font-size: 30px;
+}
+/* This is the Nhilism section */
+
+#Nhilism {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+    /* border-radius: 20px; */
+}
+
+#Nhilism h2 {
+    font-size: 40px;
+}
+
+#rose {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+}
+
+#first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-radius: 20px;
+    font-family: "Mona Sans", sans-serif;
+
+}
+
+#first p {
+    max-width: 500px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+/* This is the Existentialism section */
+
+#Existentialism {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(211, 208, 208);
+}
+
+#Existentialism h2 {
+    font-size: 40px;
+}
+
+#second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    font-family: "Mona Sans", sans-serif;
+
+    /* justify-content: space-between; */
+}
+
+#art {
+    width: 420px;
+    height: auto;
+    margin: 0%;
+}
+
+/* This is the Determinism section */
+
+#Determinism {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(211, 208, 208);
+    padding: 20px;
+}
+
+#Determinism h2 {
+    font-size: 40px;
+}
+
+#puzzle {
+    width: 400px;
+    height: auto;
+}
+
+#third {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mona Sans", sans-serif;
+
+}
+
+/* This is the Idealism section */
+
+#Idealism {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(211, 208, 208);
+}
+
+#Idealism h2 {
+    font-size: 40px;
+}
+
+#fourth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Mona Sans", sans-serif;
+
+}
+
+#headphones {
+    width: 400px;
+    height: auto;
+}
